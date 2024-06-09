@@ -7,6 +7,16 @@ Many a times, beginners blindly use a pooling method without knowing the reason 
 2. Min pooling: The minimum pixel value of the batch is selected.
 3. Average pooling: The average value of all the pixels in the batch is selected.
 
+*Max Pooling*
+
+Max pooling is a pooling operation that selects the maximum element from the region of the feature map covered by the filter. Thus, the output after max-pooling layer would be a feature map containing the most prominent features of the previous feature map. 
+<img width="695" alt="Screenshot-2019-07-21-at-2 57 13-AM" src="https://github.com/aniketandhale08/Machine-Learning/assets/99685171/b87ccf1c-8ab9-443e-b552-2680396caa5e">
+
+*Average Pooling*
+
+Average pooling computes the average of the elements present in the region of feature map covered by the filter. Thus, while max pooling gives the most prominent feature in a particular patch of the feature map, average pooling gives the average of features present in a patch. 
+<img width="695" alt="Screenshot-2019-07-21-at-3 05 56-AM" src="https://github.com/aniketandhale08/Machine-Learning/assets/99685171/d2b4aac0-f538-4502-95e0-2f8cd7d1838e">
+
 The batch here means a group of pixels of size equal to the filter size which is decided based on the size of the image. In the following example, a filter of 9x9 is chosen. The output of the pooling method varies with the varying value of the filter size.
 
 The operations are illustrated through the following figures.
